@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Odibee+Sans&family=Press+Start+2P&family=Sora&display=swap');
+
+html {
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sora', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+nav {
+    background-color: transparent;
+    padding: 10px;
+    font-family: 'Sora', sans-serif;
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display:inline-block;
+    max-width: auto;
+}
+
+button {
+    font-family: 'Sora', sans-serif;
+    padding: 8px;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.downloads-btn {
+    background-color: rgb(33, 0, 142);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.downloads-btn:hover {
+    background-color: rgb(44, 2, 180);
+    transform: scale(1.2);
+}
+
+#titlenav {
+    float: left;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: text;
+    font-family: 'Audiowide', cursive;
+}
+
+.pagesnav {
+    float: right;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    vertical-align: bottom;
+    margin-right: 25px;
+}
+
+.pagesnav:hover {
+    background-color: rgb(33, 0, 142);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pages {
+    float: right;
+    display: block;
+}
+
+section {
+    margin-top: 150px;
+}
+
+#accueil {
+    margin-top: 200px;
+}
+
+#imgpres {
+    width: 20%;
+    border-radius: 100%;
+    border: 4px solid rgb(84, 0, 193);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#imgpres:hover {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#icons {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px
+}
+
+iframe {
+    border-radius: 15px;
+}
